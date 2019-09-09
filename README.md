@@ -26,6 +26,13 @@ As this project is build against theano, you need to modify the dim orderding in
 
 For details of testing with latest version of tensorflow, please refer to #1 .
 
+```
+~/.keras/keras.json
+{
+image_dim~thing as "th"
+}
+```
+
 ## Usage
 
         test_mse.py [source folder] [output folder]
